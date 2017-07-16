@@ -12,6 +12,11 @@ AutoStartResources:
     - hardcap # prevents the game from breaking
     - vrp
     - replaces
+    - adverts
+    - afkkick
+    - speedometer
+    - StreetDisplay
+    - frfuel
 
 # do change
 RconPassword: lovely
