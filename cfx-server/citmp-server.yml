@@ -10,7 +10,6 @@ AutoStartResources:
     - baseevents
     - rconlog
     - hardcap # prevents the game from breaking
-    - scoreboard
     - vrp
     - replaces
 
