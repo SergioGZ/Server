@@ -13,7 +13,7 @@ cfg.groups = {
   ["superadmin"] = {
     _config = {onspawn = function(player) vRPclient.notify(player,{"Eres superadmin."}) end},
     "player.coords",
-	"player.custom_emote",
+    "player.custom_emote",
     "player.custom_sound"
   },
   ["admin"] = {
@@ -29,7 +29,7 @@ cfg.groups = {
     "player.display_custom",
     "player.tptome",
     "player.tpto",
-	"player.group.add",
+    "player.group.add",
     "player.group.remove",
     "player.givemoney",
     "player.giveitem"
@@ -101,7 +101,7 @@ cfg.users = {
 cfg.selectors = {
   ["Job Selector"] = {
     _config = {x = -268.363739013672, y = -957.255126953125, z = 31.22313880920410, blipid = 351, blipcolor = 47},
-	"EMS",
+    "EMS",
     "Taxista",
     "Mecanico",
     "Civil"
