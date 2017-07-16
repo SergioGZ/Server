@@ -204,265 +204,265 @@ local lang = {
         checked = "Has sido cacheado."
       },
       seize = {
-        seized = "Seized {2} ~r~{1}",
+        seized = "Incautado {2} ~r~{1}",
         weapons = {
-          title = "Seize weapons",
-          description = "Seize nearest player weapons",
-          seized = "~b~Your weapons have been seized."
+          title = "Incautar armas",
+          description = "Incautar armas a la persona mas cercana.",
+          seized = "~b~Tus armas han sido incautadas."
         },
         items = {
-          title = "Seize illegals",
-          description = "Seize illegal items",
-          seized = "~b~Your illegal stuff has been seized."
+          title = "Incautar ilegales",
+          description = "Incautar posesiones ilegales.",
+          seized = "~b~Tus posesiones ilegales han sido incautadas."
         }
       },
       jail = {
-        title = "Jail",
-        description = "Jail/UnJail nearest player in/from the nearest jail.",
-        not_found = "~r~No jail found.",
-        jailed = "~b~Jailed.",
-        unjailed = "~b~Unjailed.",
-        notify_jailed = "~b~You have been jailed.",
-        notify_unjailed = "~b~You have been unjailed."
+        title = "Encarcelar",
+        description = "Encarcelar/liberar persona mas cercana.",
+        not_found = "~r~Carcel no encontrada.",
+        jailed = "~b~Encarcelado.",
+        unjailed = "~b~Liberado.",
+        notify_jailed = "~b~Has sido encarcelado.",
+        notify_unjailed = "~b~Has sido puesto en libertad."
       },
       fine = {
-        title = "Fine",
-        description = "Fine the nearest player.",
-        fined = "~b~Fined ~s~{2} $ for ~b~{1}.",
-        notify_fined = "~b~You have been fined ~s~ {2} $ for ~b~{1}.",
-        record = "[Fine] {2} $ for {1}"
+        title = "Multa",
+        description = "Multa a la persona mas cercana.",
+        fined = "~b~Multado ~s~{2} € por ~b~{1}.",
+        notify_fined = "~b~Has sido multado con ~s~ {2}€ por ~b~{1}.",
+        record = "[Multa] {2} $ por {1}"
       },
       store_weapons = {
-        title = "Store weapons",
-        description = "Store your weapons in your inventory."
+        title = "Guardar armas",
+        description = "Guardar armas en tu inventario."
       }
     },
     identity = {
-      info = "<em>Name: </em>{1}<br /><em>First name: </em>{2}<br /><em>Age: </em>{3}<br /><em>Registration n°: </em>{4}<br /><em>Phone: </em>{5}<br /><em>Business: </em>{6}<br /><em>Business capital: </em>{7} $<br /><em>Address: </em>{9}, {8}"
+      info = "<em>Nombre: </em>{1}<br /><em>Apellido: </em>{2}<br /><em>Edad: </em>{3}<br /><em>DNI: </em>{4}<br /><em>Tlf: </em>{5}<br /><em>Negocio: </em>{6}<br /><em>Capital negocio: </em>{7} $<br /><em>Direccion: </em>{9}, {8}"
     }
   },
   emergency = {
     menu = {
       revive = {
-        title = "Reanimate",
-        description = "Reanimate the nearest player.",
-        not_in_coma = "~r~Not in coma."
+        title = "Reanimar",
+        description = "Reanima a la persona mas cercana.",
+        not_in_coma = "~r~Reanimado/a."
       }
     }
   },
   phone = {
-    title = "Phone",
+    title = "Movil",
     directory = {
-      title = "Directory",
-      description = "Open the phone directory.",
+      title = "Agenda",
+      description = "Abre la agenda.",
       add = {
-        title = "> Add",
-        prompt_number = "Enter the phone number to add:",
-        prompt_name = "Enter the entry name:",
-        added = "~g~Entry added."
+        title = "> Añadir",
+        prompt_number = "Numero a añadir:",
+        prompt_name = "Nombre de la persona:",
+        added = "~g~Contacto guardado."
       },
       sendsms = {
-        title = "Send SMS",
-        prompt = "Enter the message (max {1} chars):",
-        sent = "~g~ Sent to n°{1}.",
-        not_sent = "~r~ n°{1} unavailable."
+        title = "Whatsapp",
+        prompt = "Introduce el mensaje (max {1} car):",
+        sent = "~g~ Enviado a n°{1}.",
+        not_sent = "~r~ n°{1} no disponible."
       },
       sendpos = {
-        title = "Send position",
+        title = "Enviar posicion",
       },
       remove = {
-        title = "Remove"
+        title = "Borrar"
       }
     },
     sms = {
-      title = "SMS History",
-      description = "Received SMS history.",
+      title = "Historial",
+      description = "Whatsapp recibidos.",
       info = "<em>{1}</em><br /><br />{2}",
-      notify = "SMS~b~ {1}:~s~ ~n~{2}"
+      notify = "~g~Whatsapp~b~ {1}:~s~ ~n~{2}"
     },
     smspos = {
-      notify = "SMS-Position ~b~ {1}"
+      notify = "Posicion recibida: ~b~ {1}"
     },
     service = {
-      title = "Service",
-      description = "Call a service or an emergency number.",
-      prompt = "If needed, enter a message for the service:",
-      ask_call = "Received {1} call, do you take it ? <em>{2}</em>",
-      taken = "~r~This call is already taken."
+      title = "Servicios",
+      description = "Llama a un servicio o emergencias.",
+      prompt = "Introduce un mensaje si es necesario:",
+      ask_call = "Llamada {1} recibida, ¿respondes? <em>{2}</em>",
+      taken = "~r~Esta llamada ya ha sido atendida."
     },
     announce = {
-      title = "Announce",
-      description = "Post an announce visible to everyone for a few seconds.",
-      item_desc = "{1} $<br /><br/>{2}",
-      prompt = "Announce content (10-1000 chars): "
+      title = "Anuncio",
+      description = "Cuelga un anuncio para todos durante unos segundos.",
+      item_desc = "{1} €<br /><br/>{2}",
+      prompt = "Mensaje a anunciar (10-1000 car): "
     }
   },
   emotes = {
-    title = "Emotes",
+    title = "Acciones",
     clear = {
-      title = "> Clear",
-      description = "Clear all running emotes."
+      title = "> Parar",
+      description = "Para la accion en progreso."
     }
   },
   home = {
     buy = {
-      title = "Buy",
-      description = "Buy a home here, price is {1} $.",
-      bought = "~g~Bought.",
-      full = "~r~The place is full.",
-      have_home = "~r~You already have a home."
+      title = "Comprar",
+      description = "Compra una casa aqui, el precio es de {1} €.",
+      bought = "~g~Comprada.",
+      full = "~r~El lugar esta lleno.",
+      have_home = "~r~Ya tienes una casa."
     },
     sell = {
-      title = "Sell",
-      description = "Sell your home for {1} $",
-      sold = "~g~Sold.",
-      no_home = "~r~You don't have a home here."
+      title = "Vender",
+      description = "Vende tu casa por {1} €",
+      sold = "~g~Vendida.",
+      no_home = "~r~No tienes una casa aqui."
     },
     intercom = {
-      title = "Intercom",
-      description = "Use the intercom to enter in a home.",
-      prompt = "Number:",
-      not_available = "~r~Not available.",
-      refused = "~r~Refused to enter.",
-      prompt_who = "Say who you are:",
-      asked = "Asking...",
-      request = "Someone wants to open your home door: <em>{1}</em>"
+      title = "Porterillo",
+      description = "Usa el porterillo para entrar en una casa.",
+      prompt = "Numero:",
+      not_available = "~r~No disponible.",
+      refused = "~r~Peticion rechazada.",
+      prompt_who = "Di quien eres:",
+      asked = "Preguntando",
+      request = "Alguien quiere entrar en tu casa: <em>{1}</em>"
     },
     slot = {
       leave = {
-        title = "Leave"
+        title = "Salir"
       },
       ejectall = {
-        title = "Eject all",
-        description = "Eject all home visitors, including you, and close the home."
+        title = "Echar a todos",
+        description = "Echa a todos los visitantes, incluido tu mismo."
       }
     },
     wardrobe = {
-      title = "Wardrobe",
+      title = "Armario",
       save = {
-        title = "> Save",
-        prompt = "Save name:"
+        title = "> Guardar",
+        prompt = "Nombre vestimenta:"
       }
     },
     gametable = {
-      title = "Game table",
+      title = "Juego de mesa",
       bet = {
-        title = "Start bet",
-        description = "Start a bet with players near you, the winner will be randomly selected.",
-        prompt = "Bet amount:",
-        request = "[BET] Do you want to bet {1} $ ?",
-        started = "~g~Bet started."
+        title = "Empezar apuesta",
+        description = "Empieza una apuesta con las personas cercanas, el ganador sera aleatoriamente elegido.",
+        prompt = "Cantidad a apostar:",
+        request = "[APUESTA] ¿Quieres apostar {1} € ?",
+        started = "~g~Apuesta realizada."
       }
     }
   },
   garage = {
-    title = "Garage ({1})",
+    title = "Garaje ({1})",
     owned = {
-      title = "Owned",
-      description = "Owned vehicles."
+      title = "En propiedad",
+      description = "Vehiculos comprados."
     },
     buy = {
-      title = "Buy",
-      description = "Buy vehicles.",
-      info = "{1} $<br /><br />{2}"
+      title = "Comprar",
+      description = "Comprar vehiculos.",
+      info = "{1} €<br /><br />{2}"
     },
     sell = {
-      title = "Sell",
-      description = "Sell vehicles."
+      title = "Vender",
+      description = "Vender vehiculos."
     },
     rent = {
-      title = "Rent",
-      description = "Rent a vehicle for the session (until you disconnect)."
+      title = "Alquilar",
+      description = "Alquila un vehiculo hasta que desconectes."
     },
     store = {
-      title = "Store",
-      description = "Put your current vehicle in the garage."
+      title = "Guardar",
+      description = "Pon el vehiculo actual en el garaje."
     }
   },
   vehicle = {
-    title = "Vehicle",
-    no_owned_near = "~r~No owned vehicle near.",
+    title = "Vehiculo",
+    no_owned_near = "~r~Ningun vehiculo propio cerca.",
     trunk = {
-      title = "Trunk",
-      description = "Open the vehicle trunk."
+      title = "Maletero",
+      description = "Abrir el maletero."
     },
     detach_trailer = {
-      title = "Detach trailer",
-      description = "Detach trailer."
+      title = "Desenganchar trailer",
+      description = "Desengancha la carga."
     },
     detach_towtruck = {
-      title = "Detach tow truck",
-      description = "Detach tow truck."
+      title = "Desenganchar grua",
+      description = "Desengancha el vehiculo remolcado."
     },
     detach_cargobob = {
-      title = "Detach cargobob",
-      description = "Detach cargobob."
+      title = "Desengancha cargobob",
+      description = "Desenganchar vehiculo transportado."
     },
     lock = {
-      title = "Lock/unlock",
-      description = "Lock or unlock the vehicle."
+      title = "Cerrar/abrir",
+      description = "Cerrar o abrir el vehiculo."
     },
     engine = {
-      title = "Engine on/off",
-      description = "Start or stop the engine."
+      title = "Motor on/off",
+      description = "Arranca o apagar motor."
     },
     asktrunk = {
-      title = "Ask open trunk",
-      asked = "~g~Asking...",
-      request = "Do you want to open the trunk ?"
+      title = "Pedir abrir maletero",
+      asked = "~g~Preguntando...",
+      request = "¿Quieres abrir el maletero?"
     },
     replace = {
-      title = "Replace vehicle",
-      description = "Replace on ground the nearest vehicle."
+      title = "Reposicionar vehiculo",
+      description = "Reposiciona el vehiculo cercano. (Volcados/bugeados)"
     },
     repair = {
-      title = "Repair vehicle",
-      description = "Repair the nearest vehicle."
+      title = "Reparar vehiculo",
+      description = "Repara el vehiculo mas cercano."
     }
   },
   gunshop = {
-    title = "Gunshop ({1})",
-    prompt_ammo = "Amount of ammo to buy for the {1}:",
-    info = "<em>body: </em> {1} $<br /><em>ammo: </em> {2} $/u<br /><br />{3}"
+    title = "Tienda de armas ({1})",
+    prompt_ammo = "Cantidad de municion para {1}: (0 si es cuerpo a cuerpo)",
+    info = "<em>Arma: </em> {1} €<br /><em>Municion: </em> {2} €/u<br /><br />{3}"
   },
   market = {
-    title = "Market ({1})",
-    prompt = "Amount of {1} to buy:",
-    info = "{1} $<br /><br />{2}"
+    title = "Mercadona ({1})",
+    prompt = "Cantidad de {1} a comprar:",
+    info = "{1} €<br /><br />{2}"
   },
   skinshop = {
-    title = "Skinshop"
+    title = "Cirujia"
   },
   cloakroom = {
-    title = "Cloakroom ({1})",
+    title = "Taquilla ({1})",
     undress = {
-      title = "> Undress"
+      title = "> Desvestir"
     }
   },
   itemtr = {
     informer = {
-      title = "Illegal Informer",
-      description = "{1} $",
-      bought = "~g~Position sent to your GPS."
+      title = "Informe ilegal",
+      description = "{1} €",
+      bought = "~g~Posicion enviada a tu GPS."
     }
   },
   mission = {
-    blip = "Mission ({1}) {2}/{3}",
+    blip = "Mision({1}) {2}/{3}",
     display = "<span class=\"name\">{1}</span> <span class=\"step\">{2}/{3}</span><br /><br />{4}",
     cancel = {
-      title = "Cancel mission"
+      title = "Cancelar mision"
     }
   },
   aptitude = {
     title = "Aptitudes",
-    description = "Show aptitudes.",
-    lose_exp = "Aptitude ~b~{1}/{2} ~r~-{3} ~s~exp.",
-    earn_exp = "Aptitude ~b~{1}/{2} ~g~+{3} ~s~exp.",
-    level_down = "Aptitude ~b~{1}/{2} ~r~lose level ({3}).",
-    level_up = "Aptitude ~b~{1}/{2} ~g~level up ({3}).",
+    description = "Mostrar aptitudes.",
+    lose_exp = "Aptitud ~b~{1}/{2} ~r~-{3} ~s~exp.",
+    earn_exp = "Aptitud ~b~{1}/{2} ~g~+{3} ~s~exp.",
+    level_down = "Aptitud ~b~{1}/{2} ~r~bajas nivel ({3}).",
+    level_up = "Aptitud ~b~{1}/{2} ~g~subes nivel ({3}).",
     display = {
       group = "{1}: ",
-      aptitude = "--- {1} | exp {2} | lvl {3} | progress {4}%"
+      aptitude = "--- {1} | exp {2} | lvl {3} | progreso {4}%"
     }
   }
 }
