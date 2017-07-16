@@ -38,7 +38,7 @@ cfg.handcuff_disable_menu = true
 
 -- when health is under the threshold, player is in coma
 -- set to 0 to disable coma
-cfg.coma_threshold = 120
+cfg.coma_threshold = 0
 
 -- maximum duration of the coma in minutes
 cfg.coma_duration = 10

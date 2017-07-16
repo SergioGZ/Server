@@ -12,14 +12,14 @@ local cfg = {}
 --- map of aptitude => {title,init_exp,max_exp}
 ---- max_exp: -1 for infinite exp
 cfg.gaptitudes = {
-  ["physical"] = {
-    _title = "Physical",
-    ["strength"] = {"Strength", 30, 105} -- required, level 3 to 6 (by default, can carry 10kg per level)
+  ["Fisicas"] = {
+    _title = "Fisicas",
+    ["fuerza"] = {"Fuerza", 30, 105} -- required, level 3 to 6 (by default, can carry 10kg per level)
   },
-  ["science"] = {
-    _title = "Science",
-    ["chemicals"] = {"Study of chemicals", 0, -1}, -- example
-    ["mathematics"] = {"Study of mathematics", 0, -1} -- example
+  ["ciencia"] = {
+    _title = "Ciencia",
+    ["quimica"] = {"Quimica", 0, -1}, -- example
+    ["matematicas"] = {"Matematicas", 0, -1} -- example
   }
 }
 
