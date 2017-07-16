@@ -17,7 +17,7 @@ local lang = {
     thirsty = "Sediento"
   },
   money = {
-    display = "{1} <span class=\"symbol\">$</span>",
+    display = "{1} <span class=\"symbol\">€</span>",
     given = "Diste ~r~{1}€.",
     received = "Recibiste ~g~{1}€.",
     not_enough = "~r~Sin suficiente dinero.",
@@ -46,7 +46,7 @@ local lang = {
       prompt = "Cantidad a tirar (max {1}):",
       done = "Tiraste ~r~{1} ~s~{2}."
     },
-    missing = "~r~Peso actual {2} {1}.",
+    missing = "Necesitas ~r~{2} {1}.",
     full = "~r~Inventario lleno.",
     chest = {
       title = "Maletero",
@@ -66,7 +66,7 @@ local lang = {
     title = "ATM Barcenas",
     info = {
       title = "Info",
-      bank = "Banco: {1} $"
+      bank = "Banco: {1} €"
     },
     deposit = {
       title = "Depositar",
@@ -89,11 +89,11 @@ local lang = {
       description = "Directorio de negocio.",
       dprev = "> Prev",
       dnext = "> Sig",
-      info = "<em>Capital: </em>{1} $<br /><em>Dueño: </em>{2} {3}<br /><em>CIF: </em>{4}<br /><em>Tlf: </em>{5}"
+      info = "<em>Capital: </em>{1} €<br /><em>Dueño: </em>{2} {3}<br /><em>CIF: </em>{4}<br /><em>Tlf: </em>{5}"
     },
     info = {
       title = "Info del negocio",
-      info = "<em>Nombre: </em>{1}<br /><em>Capital: </em>{2} $<br /><em>Capital transferido: </em>{3} $<br /><br/>Capital transferido es la cantidad de dinero transferido en un periodo de tiempo, la cantidad maxima es el capital del negocio."
+      info = "<em>Nombre: </em>{1}<br /><em>Capital: </em>{2} €<br /><em>Capital transferido: </em>{3} €<br /><br/>Capital transferido es la cantidad de dinero transferido en un periodo de tiempo, la cantidad maxima es el capital del negocio."
     },
     addcapital = {
       title = "Añadir capital",
@@ -104,7 +104,7 @@ local lang = {
     launder = {
       title = "Blanqueo de dinero",
       description = "Blanquea dinero con tu negocio.",
-      prompt = "Cantidad de dinero a blanquear(max {1} $): ",
+      prompt = "Cantidad de dinero a blanquear(max {1} €): ",
       laundered = "~g~{1}€ ~s~blanqueado.",
       not_enough = "~r~Sin suficiente dinero negro."
     },
@@ -230,7 +230,7 @@ local lang = {
         description = "Multa a la persona mas cercana.",
         fined = "~b~Multado ~s~{2} € por ~b~{1}.",
         notify_fined = "~b~Has sido multado con ~s~ {2}€ por ~b~{1}.",
-        record = "[Multa] {2} $ por {1}"
+        record = "[Multa] {2} € por {1}"
       },
       store_weapons = {
         title = "Guardar armas",
@@ -238,7 +238,7 @@ local lang = {
       }
     },
     identity = {
-      info = "<em>Nombre: </em>{1}<br /><em>Apellido: </em>{2}<br /><em>Edad: </em>{3}<br /><em>DNI: </em>{4}<br /><em>Tlf: </em>{5}<br /><em>Negocio: </em>{6}<br /><em>Capital negocio: </em>{7} $<br /><em>Direccion: </em>{9}, {8}"
+      info = "<em>Nombre: </em>{1}<br /><em>Apellido: </em>{2}<br /><em>Edad: </em>{3}<br /><em>DNI: </em>{4}<br /><em>Tlf: </em>{5}<br /><em>Negocio: </em>{6}<br /><em>Capital negocio: </em>{7} €<br /><em>Direccion: </em>{9}, {8}"
     }
   },
   emergency = {

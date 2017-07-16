@@ -11,11 +11,10 @@ local cfg = {}
 
 cfg.groups = {
   ["superadmin"] = {
-    _config = {onspawn = function(player) vRPclient.notify(player,{"You are superadmin."}) end},
-    "player.group.add",
-    "player.group.remove",
-    "player.givemoney",
-    "player.giveitem"
+    _config = {onspawn = function(player) vRPclient.notify(player,{"Eres superadmin."}) end},
+    "player.coords",
+	"player.custom_emote",
+    "player.custom_sound"
   },
   ["admin"] = {
     "admin.tickets",
@@ -27,12 +26,13 @@ cfg.groups = {
     "player.ban",
     "player.unban",
     "player.noclip",
-    "player.custom_emote",
-    "player.custom_sound",
     "player.display_custom",
-    "player.coords",
     "player.tptome",
-    "player.tpto"
+    "player.tpto",
+	"player.group.add",
+    "player.group.remove",
+    "player.givemoney",
+    "player.giveitem"
   },
   -- the group user is auto added to all logged players
   ["user"] = {
@@ -42,7 +42,7 @@ cfg.groups = {
     "police.store_weapons",
     "police.seizable" -- can be seized
   },
-  ["police"] = {
+  ["Policia"] = {
     _config = { 
       gtype = "job",
       onjoin = function(player) vRPclient.setCop(player,{true}) end,
@@ -65,23 +65,23 @@ cfg.groups = {
     "-police.store_weapons",
     "-police.seizable" -- negative permission, police can't seize itself, even if another group add the permission
   },
-  ["emergency"] = {
+  ["EMS"] = {
     _config = { gtype = "job" },
     "emergency.revive",
     "emergency.shop",
     "emergency.service"
   },
-  ["repair"] = {
+  ["Mecanico"] = {
     _config = { gtype = "job"},
     "vehicle.repair",
     "vehicle.replace",
     "repair.service"
   },
-  ["taxi"] = {
+  ["Taxista"] = {
     _config = { gtype = "job" },
     "taxi.service"
   },
-  ["citizen"] = {
+  ["Civil"] = {
     _config = { gtype = "job" }
   }
 }
@@ -101,10 +101,10 @@ cfg.users = {
 cfg.selectors = {
   ["Job Selector"] = {
     _config = {x = -268.363739013672, y = -957.255126953125, z = 31.22313880920410, blipid = 351, blipcolor = 47},
-    "police",
-    "taxi",
-    "repair",
-    "citizen"
+	"EMS",
+    "Taxista",
+    "Mecanico",
+    "Civil"
   }
 }
 
