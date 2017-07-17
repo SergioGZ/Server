@@ -62,6 +62,7 @@ cfg.groups = {
     "police.jail",
     "police.fine",
     "police.announce",
+	"police.garage",
     "-police.store_weapons",
     "-police.seizable" -- negative permission, police can't seize itself, even if another group add the permission
   },
@@ -70,7 +71,8 @@ cfg.groups = {
     "emergency.revive",
     "emergency.shop",
     "emergency.service",
-    "emergency.cloakroom"
+    "emergency.cloakroom",
+	"emergency.garage"
   },
   ["Mecanico"] = {
     _config = { gtype = "job"},
@@ -80,7 +82,8 @@ cfg.groups = {
   },
   ["Taxista"] = {
     _config = { gtype = "job" },
-    "taxi.service"
+    "taxi.service",
+	"taxi.garage"
   },
   ["Civil"] = {
     _config = { gtype = "job" }
