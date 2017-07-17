@@ -69,7 +69,8 @@ cfg.groups = {
     _config = { gtype = "job" },
     "emergency.revive",
     "emergency.shop",
-    "emergency.service"
+    "emergency.service",
+    "emergency.cloakroom"
   },
   ["Mecanico"] = {
     _config = { gtype = "job"},
