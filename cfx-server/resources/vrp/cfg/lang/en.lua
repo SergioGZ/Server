@@ -238,7 +238,7 @@ local lang = {
       }
     },
     identity = {
-      info = "<em>Nombre: </em>{1}<br /><em>Apellido: </em>{2}<br /><em>Edad: </em>{3}<br /><em>DNI: </em>{4}<br /><em>Tlf: </em>{5}<br /><em>Negocio: </em>{6}<br /><em>Capital negocio: </em>{7} €<br /><em>Direccion: </em>{9}, {8}"
+      info = "<em>Nombre: </em>{2}<br /><em>Apellido: </em>{1}<br /><em>Edad: </em>{3}<br /><em>DNI: </em>{4}<br /><em>Tlf: </em>{5}<br /><em>Negocio: </em>{6}<br /><em>Capital negocio: </em>{7} €<br /><em>Direccion: </em>{9}, {8}"
     }
   },
   emergency = {
